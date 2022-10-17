@@ -22,7 +22,7 @@ public class IntsCalculator implements Ints {
         return makeOperation(a, b, Calculator.Operation.POW);
     }
 
-    private int makeOperation(int a, int b, Calculator.Operation operation){
+    private int makeOperation(int a, int b, Calculator.Operation operation) {
         return (int) target
                 .newFormula()
                 .addOperand(a)
